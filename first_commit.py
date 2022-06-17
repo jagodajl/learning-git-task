@@ -14,3 +14,5 @@ for key in dict:
     values_titled.append(value.title())
     counter += 1
   print("Idę do", key.title(), "kupuję tu następujące rzeczy:", values_titled)
+
+print("W sumie kupuję " + str(counter) + " produktów.")
