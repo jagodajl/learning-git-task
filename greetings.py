@@ -10,3 +10,5 @@ while len(fibonacci)<num:
   else:
     fibonacci.append(sum(fibonacci[-2:]))
   n = n + 1
+
+  print(fibonacci)
